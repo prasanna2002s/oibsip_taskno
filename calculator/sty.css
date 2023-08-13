@@ -1,0 +1,105 @@
+body {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('b2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 90vh;
+	width: 90vw;
+}
+
+#container {
+	width: 600px;
+    height: 520px;
+	padding: 10px 10px 20px 10px;
+	margin: 40px auto;
+	background-color: #d3ced0;
+	border-radius: 4px;
+	border-top: 2px solid #d8c6d4;
+	border-right: 2px solid #FFF;
+	border-bottom: 2px solid #C1C1C1;
+	border-left: 2px solid #C1C1C1;
+	box-shadow: -3px 3px 7px rgba(0, 0, 0, .6), inset -100px 0px 100px rgba(255, 255, 255, .5);
+}
+
+#display {
+	display: block;
+	margin: 15px auto;
+	height: 70px;
+	width: 570px;
+	padding: 0 10px;
+	border-radius: 4px;
+	border-top: 2px solid #c56fdf;
+	border-right: 2px solid #ca9ccf;
+	border-bottom: 2px solid #c56fdf;
+	border-left: 2px solid #ca9ccf;
+	background-color:#bdb7b9 ;
+	box-shadow: inset 0px 0px 10px #030303, inset 0px -20px 1px rgba(150, 150, 150, .2);
+	font-size: 28px;
+	color: #060c51;
+	text-align: right;
+	font-weight: 400;
+}
+
+.button {
+	display: inline-block;
+	margin: 2px;
+	width: 142px;
+	height: 100px;
+	font-size: 22px;
+	font-weight: bold;
+	border-radius: 4px;
+    color: #FF8484;
+}
+
+.mathButtons {
+	margin: 2px 2px 6px 2px;
+	color: #FFF;
+	text-shadow: -1px -1px 0px #44006F;
+	background-color: #444242;
+	border-top: 2px solid #C1C1C1;
+	border-right: 2px solid #C1C1C1;
+	border-bottom: 2px solid #181818;
+	border-left: 2px solid #181818;
+	box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #2E2E2E;
+}
+
+.digits {
+	color: #0f135a;
+	text-shadow: 1px 1px 0px #FFF;
+	background-color: #EBEBEB;
+	border-top: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	border-bottom: 2px solid #C1C1C1;
+	border-left: 2px solid #C1C1C1;
+	border-radius: 4px;
+	box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #DCDCDC;
+}
+
+.digits:hover,
+.mathButtons:hover,
+#clearButton:hover {
+	background-color: #d790d2;
+	box-shadow: 0px 0px 2px #db9adb, inset 0px -20px 1px #e3acdc;
+	border-top: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	border-bottom: 2px solid #dda8d4;
+	border-left: 2px solid #eb9deb;
+}
+
+#clearButton {
+	color: #FFF;
+	text-shadow: -1px -1px 0px #44006F;
+	background-color: #444242;
+	border-top: 2px solid #C1C1C1;
+	border-right: 2px solid #C1C1C1;
+	border-bottom: 2px solid #181818;
+	border-left: 2px solid #181818;
+	box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #2E2E2E;
+}
